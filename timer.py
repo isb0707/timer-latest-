@@ -8,10 +8,14 @@ timer.py uses the time library to help keep track of time
 
 # This program is timer that counts down
 
-
+import random # this library can generate random number
 import time # The time library has a sleep function that will pause the script for a specifized amount of time
 from PIL import Image # the pillow library makes it easy to display images 
-print("Players stand")
+print("all of you are standing up right now")
+
+sit_down_list = [] #create an empty list there is no player in it at the very beginning
+
+
 im = Image.open("times-up.jpeg")
 
 # ask user to enter desired countdown time
