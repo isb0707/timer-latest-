@@ -9,7 +9,6 @@ timer.py also uses the random library to return a random time period
 
 # This program is timer that counts down
 
-
 import time # The time library has a sleep function that will pause the script for a specifized amount of time
 import random # The random library allows the function to generate the random time for the program to sleep
 from PIL import Image # the pillow library makes it easy to display images 
@@ -34,9 +33,9 @@ while time.time() - start_time < set_time: #here time.time()is right now
         break
 
 winner = sit_down_list[-1]
-print(f"The last person to sit down is: {winner}. They win!")
+print(f"The last person to sit down is: {winner}. you win!")
 print("Players still standing are eliminated.")
-time.sleep(set_time)
+
 
 im.show()
 
