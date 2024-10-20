@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Page-1" id="l36IQv7_twvHKa3D5Zrf">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="60" as="sourcePoint" />
+            <mxPoint x="109.5" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-3" value="print the message that everyone is standing up right now" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rT-OcngmrTWV4m1aOCSu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="240" as="sourcePoint" />
+            <mxPoint x="110" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-5" value="create a variable that stores a &#39;times up&#39; picture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-6" value="create an empty player list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rT-OcngmrTWV4m1aOCSu-6" target="rT-OcngmrTWV4m1aOCSu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="300" as="sourcePoint" />
+            <mxPoint x="110" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-8" value="create a set_time variable that stores the sleep time(10-25 seconds)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="390" as="sourcePoint" />
+            <mxPoint x="109.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="515" as="sourcePoint" />
+            <mxPoint x="109.5" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-13" value="create a variable start time to record the point right now" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49.5" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="615" as="sourcePoint" />
+            <mxPoint x="109.5" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-15" value="has the while loop time exceed the sleep time?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="680" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="740" as="sourcePoint" />
+            <mxPoint x="260" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-19" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-23" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ask the user to input the player name and store it into a sit_down_name variable&lt;/span&gt;&#xa;&#xa;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="720" as="sourcePoint" />
+            <mxPoint x="500" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-25" value="append this sit_donw_name into the empty list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="730" as="sourcePoint" />
+            <mxPoint x="680" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-27" value="if time exceed the sleep time right now?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="724" as="sourcePoint" />
+            <mxPoint x="920" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-29" value="Print times up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-30" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-31" value="[break]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="724" as="sourcePoint" />
+            <mxPoint x="1100" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="640" as="sourcePoint" />
+            <mxPoint x="110" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-34" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.35;exitY=0.178;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rT-OcngmrTWV4m1aOCSu-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="680" as="sourcePoint" />
+            <mxPoint x="720" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="820" as="sourcePoint" />
+            <mxPoint x="1200" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="820" as="sourcePoint" />
+            <mxPoint x="110" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="800" as="sourcePoint" />
+            <mxPoint x="109.5" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-40" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49.5" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-41" value="create a variable: winner which stores the value of&amp;nbsp; the last element in the player_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="850" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rT-OcngmrTWV4m1aOCSu-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="930" as="sourcePoint" />
+            <mxPoint x="120.5" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-44" value="print the message for the last person is the winner and everyone else is elminated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.25" y="1050" as="sourcePoint" />
+            <mxPoint x="120" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-46" value="show the times up picture&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-47" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT-OcngmrTWV4m1aOCSu-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1170" as="sourcePoint" />
+            <mxPoint x="120" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
